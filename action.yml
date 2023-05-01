@@ -1,4 +1,4 @@
-name: Prebuild and Compile List-KR Fast
+name: Prebuild and Compile custom filter
 
 runs:
   using: 'composite'
