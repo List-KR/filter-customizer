@@ -1,0 +1,40 @@
+name: Prebuild and Compile List-KR Fast
+
+runs:
+  using: 'composite'
+  steps:
+      - name: Check out to repository
+        uses: actions/checkout@v3
+        working-directory: ${{ github.path }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+        working-directory: ${{ github.action_path }}
+      - name: Install npm packages
+        run: |
+          sudo npm i -g npm
+          sudo npm i -g typescript
+          npm i
+        shell: bash
+        working-directory: ${{ github.action_path }}
+      - name: Compile Typescript
+        run: tsc
+        shell: bash
+      - name: Create env file
+        run: |
+          touch .env
+          echo GITHUB_REPO=${{ github.repository }} >> .env
+          echo GITHUB_TOKEN=${{ github.token }} >> .env
+          echo GITHUB_PATH=${{ github.path }} >> .env
+          echo GITHUB_ACTION${{ github.action_path }} >> .env
+        shell: bash
+        working-directory: ${{ github.action_path }}
+      - name: Run script
+        run: npm run prebuild
+        shell: bash
+        working-directory: ${{ github.action_path }}
+      - name: Run script
+        run: npm run compile
+        shell: bash
+        working-directory: ${{ github.action_path }}
