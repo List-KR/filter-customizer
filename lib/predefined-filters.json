@@ -17,7 +17,10 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Dependencies": [
+      "EasyList"
+    ]
   },
   "AdGuard Tracking Protection filter": {
     "SubscriptionURL": {
@@ -277,7 +280,10 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Dependencies": [
+      "EasyList Germany"
+    ]
   },
   "AdGuard French filter": {
     "SubscriptionURL": {
@@ -297,7 +303,10 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Dependencies": [
+      "Liste FR"
+    ]
   },
   "AdGuard Japanese filter": {
     "SubscriptionURL": {
@@ -337,7 +346,10 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Dependencies": [
+      "EasyList Dutch"
+    ]
   },
   "AdGuard Spanish/Portuguese filter": {
     "SubscriptionURL": {
@@ -397,7 +409,10 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Dependencies": [
+      "EasyList China"
+    ]
   },
   "List-KR": {
     "SubscriptionURL": {
@@ -407,5 +422,59 @@
     "SourceURL": "https://github.com/List-KR/List-KR",
     "HomepageURL": "https://github.com/List-KR/List-KR#readme",
     "License": "GPL-3.0-only"
+  },
+  "YousList": {
+    "SubscriptionURL": {
+      "AdGuard": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt",
+      "uBlock Origin": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt"
+    },
+    "SourceURL": "https://github.com/yous/YousList",
+    "HomepageURL": "https://github.com/yous/YousList/#youslist",
+    "License": "CC-BY-4.0"
+  },
+  "EasyList": {
+    "SubscriptionURL": {
+      "AdGuard": "https://easylist.to/easylist/easylist.txt",
+      "uBlock Origin": "https://easylist.to/easylist/easylist.txt"
+    },
+    "SourceURL": "https://github.com/easylist/easylist",
+    "HomepageURL": "https://easylist.to",
+    "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-LATER"
+  },
+  "EasyList Germany": {
+    "SubscriptionURL": {
+      "AdGuard": "https://easylist.to/easylistgermany/easylistgermany.txt",
+      "uBlock Origin": "https://easylist.to/easylistgermany/easylistgermany.txt"
+    },
+    "SourceURL": "https://github.com/easylist/easylistgermany",
+    "HomepageURL": "https://easylist.to",
+    "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-LATER"
+  },
+  "Liste FR": {
+    "SubscriptionURL": {
+      "AdGuard": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
+      "uBlock Origin": "https://easylist-downloads.adblockplus.org/liste_fr.txt"
+    },
+    "SourceURL": "https://github.com/easylist/listefr",
+    "HomepageURL": "https://forums.lanik.us/viewforum.php?f=91",
+    "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-LATER"
+  },
+  "EasyList Dutch": {
+    "SubscriptionURL": {
+      "AdGuard": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+      "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistdutch.txt"
+    },
+    "SourceURL": "https://github.com/easylist/easylistdutch",
+    "HomepageURL": "https://easylist.to",
+    "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-LATER"
+  },
+  "EasyList China": {
+    "SubscriptionURL": {
+      "AdGuard": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+      "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+    },
+    "SourceURL": "https://github.com/easylist/easylistchina",
+    "HomepageURL": "https://easylist.to",
+    "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-LATER"
   }
 }
