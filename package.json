@@ -3,6 +3,7 @@
   "dependencies": {
     "@adguard/aglint": "^1.0.11",
     "dotenv": "^16.0.3",
+    "node-json-db": "^2.2.0",
     "simple-git": "^3.18.0",
     "typescript": "^5.0.4"
   },
