@@ -20,6 +20,14 @@
     "License": "GPL-3.0-only",
     "Dependencies": [
       "EasyList"
+    ],
+    "Constructor": {
+      "Include": [
+        "/BaseFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
   "AdGuard Tracking Protection filter": {
@@ -40,7 +48,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/SpywareFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard URL Tracking filter": {
     "SubscriptionURL": {
@@ -60,7 +76,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/TrackParamFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Social media filter": {
     "SubscriptionURL": {
@@ -80,7 +104,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/SocialFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Annoyances filter": {
     "SubscriptionURL": {
@@ -100,7 +132,19 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/Cookies/sections/*.txt",
+        "/AnnoyancesFilter/MobileApp/sections/*.txt",
+        "/AnnoyancesFilter/Other/sections/*.txt",
+        "/AnnoyancesFilter/Popups/sections/*.txt",
+        "/AnnoyancesFilter/Widgets/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Cookie Notices filter": {
     "SubscriptionURL": {
@@ -120,7 +164,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/Cookies/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Popups filter": {
     "SubscriptionURL": {
@@ -140,7 +192,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/Popups/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Mobile App Banners filter": {
     "SubscriptionURL": {
@@ -160,7 +220,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/MobileApp/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Widgets filter": {
     "SubscriptionURL": {
@@ -180,7 +248,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/Widgets/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Other Annoyances filter": {
     "SubscriptionURL": {
@@ -200,7 +276,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/AnnoyancesFilter/Other/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Mobile Ads filter": {
     "SubscriptionURL": {
@@ -220,7 +304,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/MobileFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Russian filter": {
     "SubscriptionURL": {
@@ -240,7 +332,18 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/CyrillicFilters/common-sections/*.txt",
+        "/CyrillicFilters/RussianFilter/sections/*.txt",
+        "/CyrillicFilters/Belarusian/sections/*.txt",
+        "/CyrillicFilters/Kazakh/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Ukrainian filter": {
     "SubscriptionURL": {
@@ -260,7 +363,16 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/CyrillicFilters/common-sections/*.txt",
+        "/CyrillicFilters/UkrainianFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard German filter": {
     "SubscriptionURL": {
@@ -283,6 +395,14 @@
     "License": "GPL-3.0-only",
     "Dependencies": [
       "EasyList Germany"
+    ],
+    "Constructor": {
+      "Include": [
+        "/GermanFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
   "AdGuard French filter": {
@@ -306,6 +426,14 @@
     "License": "GPL-3.0-only",
     "Dependencies": [
       "Liste FR"
+    ],
+    "Constructor": {
+      "Include": [
+        "/FrenchFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
   "AdGuard Japanese filter": {
@@ -326,7 +454,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/JapaneseFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Dutch filter": {
     "SubscriptionURL": {
@@ -349,6 +485,14 @@
     "License": "GPL-3.0-only",
     "Dependencies": [
       "EasyList Dutch"
+    ],
+    "Constructor": {
+      "Include": [
+        "/DutchFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
   "AdGuard Spanish/Portuguese filter": {
@@ -369,7 +513,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/SpanishFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Turkish filter": {
     "SubscriptionURL": {
@@ -389,7 +541,15 @@
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
-    "License": "GPL-3.0-only"
+    "License": "GPL-3.0-only",
+    "Constructor": {
+      "Include": [
+        "/TurkishFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
+    ]
   },
   "AdGuard Chinese filter": {
     "SubscriptionURL": {
@@ -412,6 +572,14 @@
     "License": "GPL-3.0-only",
     "Dependencies": [
       "EasyList China"
+    ],
+    "Constructor": {
+      "Include": [
+        "/ChineseFilter/sections/*.txt"
+      ]
+    },
+    "Library": [
+      "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
   "List-KR": {
