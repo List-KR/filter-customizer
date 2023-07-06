@@ -1,5 +1,7 @@
-{
-  "AdGuard Base filter": {
+[
+  {
+    "ID": "ADG-2",
+    "Name": "AdGuard Base filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
@@ -19,7 +21,7 @@
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
     "License": "GPL-3.0-only",
     "Dependencies": [
-      "EasyList"
+      "ELT-1"
     ],
     "Constructor": {
       "Include": [
@@ -30,7 +32,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Tracking Protection filter": {
+  {
+    "ID": "ADG-3",
+    "Name": "AdGuard Tracking Protection filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
@@ -58,7 +62,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard URL Tracking filter": {
+  {
+    "ID": "ADG=17",
+    "Name": "AdGuard URL Tracking filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/17.txt",
@@ -86,7 +92,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Social media filter": {
+  {
+    "ID": "ADG-4",
+    "Name": "AdGuard Social media filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
@@ -114,7 +122,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Annoyances filter": {
+  {
+    "ID": "ADG-14",
+    "Name": "AdGuard Annoyances filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
@@ -146,7 +156,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Cookie Notices filter": {
+  {
+    "ID": "ADG-18",
+    "Name": "AdGuard Cookie Notices filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/18.txt",
@@ -174,7 +186,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Popups filter": {
+  {
+    "ID": "ADG-19",
+    "Name": "AdGuard Popups filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/19.txt",
@@ -202,7 +216,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Mobile App Banners filter": {
+  {
+    "ID": "ADG-20",
+    "Name": "AdGuard Mobile App Banners filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/20.txt",
@@ -230,7 +246,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Widgets filter": {
+  {
+    "ID": "ADG-22",
+    "Name": "AdGuard Widgets filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/22.txt",
@@ -258,7 +276,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Other Annoyances filter": {
+  {
+    "ID": "ADG-21",
+    "Name": "AdGuard Other Annoyances filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/21.txt",
@@ -286,7 +306,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Mobile Ads filter": {
+  {
+    "ID": "ADG-11",
+    "Name": "AdGuard Mobile Ads filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
@@ -314,7 +336,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Russian filter": {
+  {
+    "ID": "ADG-1",
+    "Name": "AdGuard Russian filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/1.txt",
@@ -345,7 +369,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Ukrainian filter": {
+  {
+    "ID": "ADG-23",
+    "Name": "AdGuard Ukrainian filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/23.txt",
@@ -374,7 +400,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard German filter": {
+  {
+    "ID": "ADG-6",
+    "Name": "AdGuard German filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/6.txt",
@@ -394,7 +422,7 @@
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
     "License": "GPL-3.0-only",
     "Dependencies": [
-      "EasyList Germany"
+      "ELT-2"
     ],
     "Constructor": {
       "Include": [
@@ -405,7 +433,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard French filter": {
+  {
+    "ID": "ADG-16",
+    "Name": "AdGuard French filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/16.txt",
@@ -425,7 +455,7 @@
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
     "License": "GPL-3.0-only",
     "Dependencies": [
-      "Liste FR"
+      "ELT-3"
     ],
     "Constructor": {
       "Include": [
@@ -436,7 +466,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Japanese filter": {
+  {
+    "ID": "ADG-7",
+    "Name": "AdGuard Japanese filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/7.txt",
@@ -464,7 +496,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Dutch filter": {
+  {
+    "ID": "ADG-8",
+    "Name": "AdGuard Dutch filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/8.txt",
@@ -484,7 +518,7 @@
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
     "License": "GPL-3.0-only",
     "Dependencies": [
-      "EasyList Dutch"
+      "ELT-4"
     ],
     "Constructor": {
       "Include": [
@@ -495,7 +529,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Spanish/Portuguese filter": {
+  {
+    "ID": "ADG-9",
+    "Name": "AdGuard Spanish/Portuguese filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/9.txt",
@@ -523,7 +559,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Turkish filter": {
+  {
+    "ID": "ADG-13",
+    "Name": "AdGuard Turkish filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/13.txt",
@@ -551,7 +589,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "AdGuard Chinese filter": {
+  {
+    "ID": "ADG-224",
+    "Name": "AdGuard Chinese filter",
     "SubscriptionURL": {
       "AdGuard": {
         "Chromium": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
@@ -571,7 +611,7 @@
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
     "License": "GPL-3.0-only",
     "Dependencies": [
-      "EasyList China"
+      "ELT-5"
     ],
     "Constructor": {
       "Include": [
@@ -582,7 +622,9 @@
       "git+https://github.com/AdguardTeam/FiltersRegistry@master/filters/general_js_api.txt"
     ]
   },
-  "List-KR": {
+  {
+    "ID": "LKR-1",
+    "Name": "List-KR",
     "SubscriptionURL": {
       "AdGuard": "https://cdn.jsdelivr.net/gh/List-KR/List-KR@master/filter-AdGuard.txt",
       "uBlock Origin": "https://cdn.jsdelivr.net/gh/List-KR/List-KR@master/filter-uBlockOrigin.txt"
@@ -591,7 +633,9 @@
     "HomepageURL": "https://github.com/List-KR/List-KR#readme",
     "License": "GPL-3.0-only"
   },
-  "YousList": {
+  {
+    "ID": "YousList",
+    "Name": "YousList",
     "SubscriptionURL": {
       "AdGuard": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt",
       "uBlock Origin": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt"
@@ -600,7 +644,9 @@
     "HomepageURL": "https://github.com/yous/YousList/#youslist",
     "License": "CC-BY-4.0"
   },
-  "EasyList": {
+  {
+    "ID": "ELT-1",
+    "Name": "EasyList",
     "SubscriptionURL": {
       "AdGuard": "https://easylist.to/easylist/easylist.txt",
       "uBlock Origin": "https://easylist.to/easylist/easylist.txt"
@@ -609,7 +655,9 @@
     "HomepageURL": "https://easylist.to",
     "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-OR-LATER"
   },
-  "EasyList Germany": {
+  {
+    "ID": "ELT-2",
+    "Name": "EasyList Germany",
     "SubscriptionURL": {
       "AdGuard": "https://easylist.to/easylistgermany/easylistgermany.txt",
       "uBlock Origin": "https://easylist.to/easylistgermany/easylistgermany.txt"
@@ -618,7 +666,9 @@
     "HomepageURL": "https://easylist.to",
     "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-OR-LATER"
   },
-  "Liste FR": {
+  {
+    "ID": "ELT-3",
+    "Name": "Liste FR",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
       "uBlock Origin": "https://easylist-downloads.adblockplus.org/liste_fr.txt"
@@ -627,7 +677,9 @@
     "HomepageURL": "https://forums.lanik.us/viewforum.php?f=91",
     "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-OR-LATER"
   },
-  "EasyList Dutch": {
+  {
+    "ID": "ELT-4",
+    "Name": "EasyList Dutch",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
       "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistdutch.txt"
@@ -636,7 +688,9 @@
     "HomepageURL": "https://easylist.to",
     "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-OR-LATER"
   },
-  "EasyList China": {
+  {
+    "ID": "ELT-5",
+    "Name": "EasyList China",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistchina.txt"
@@ -645,4 +699,4 @@
     "HomepageURL": "https://easylist.to",
     "License": "GPL-3.0-OR-LATER and CC-BY-SA-3.0-UNPORTED-OR-LATER"
   }
-}
+]
