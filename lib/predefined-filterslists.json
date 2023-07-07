@@ -15,7 +15,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/2.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/2.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/2.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/2.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -48,7 +48,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/3.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/3.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/3.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/3.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -78,7 +78,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/17.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/17.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/17.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/17.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -108,7 +108,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/4.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/4.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/4.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/4.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -138,7 +138,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/14.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/14.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/14.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/14.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -172,7 +172,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/18.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/18.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/18.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/18.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -202,7 +202,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/19.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/19.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/19.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/19.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -232,7 +232,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/20.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/20.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/20.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/20.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -262,7 +262,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/22.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/22.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/22.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/22.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -292,7 +292,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/21.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/21.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/21.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/21.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -322,7 +322,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/11.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/11.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/11.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/11.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -352,7 +352,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/1.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/1.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/1.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/1.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -385,7 +385,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/23.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/23.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/23.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/23.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -416,7 +416,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/6.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/6.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/6.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/6.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -449,7 +449,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/16.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/16.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/16.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/16.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -482,7 +482,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/7.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/7.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/7.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/7.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -512,7 +512,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/8.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/8.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/8.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/8.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -545,7 +545,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/9.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/9.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/9.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/9.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -575,7 +575,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/13.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/13.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/13.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/13.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -605,7 +605,7 @@
         "iOS": "https://filters.adtidy.org/ios/filters/224.txt",
         "ContentBlocker": "https://filters.adtidy.org/extension/android-content-blocker/filters/224.txt"
       },
-      "uBlock Origin": "https://filters.adtidy.org/extension/ublock/filters/224.txt"
+      "uBlockOrigin": "https://filters.adtidy.org/extension/ublock/filters/224.txt"
     },
     "SourceURL": "https://github.com/AdguardTeam/AdguardFilters",
     "HomepageURL": "https://github.com/AdguardTeam/AdguardFilters#readme",
@@ -627,7 +627,7 @@
     "Name": "List-KR",
     "SubscriptionURL": {
       "AdGuard": "https://cdn.jsdelivr.net/gh/List-KR/List-KR@master/filter-AdGuard.txt",
-      "uBlock Origin": "https://cdn.jsdelivr.net/gh/List-KR/List-KR@master/filter-uBlockOrigin.txt"
+      "uBlockOrigin": "https://cdn.jsdelivr.net/gh/List-KR/List-KR@master/filter-uBlockOrigin.txt"
     },
     "SourceURL": "https://github.com/List-KR/List-KR",
     "HomepageURL": "https://github.com/List-KR/List-KR#readme",
@@ -638,7 +638,7 @@
     "Name": "YousList",
     "SubscriptionURL": {
       "AdGuard": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt",
-      "uBlock Origin": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt"
+      "uBlockOrigin": "https://cdn.jsdelivr.net/gh/yous/YousList@master/youslist.txt"
     },
     "SourceURL": "https://github.com/yous/YousList",
     "HomepageURL": "https://github.com/yous/YousList/#youslist",
@@ -649,7 +649,7 @@
     "Name": "EasyList",
     "SubscriptionURL": {
       "AdGuard": "https://easylist.to/easylist/easylist.txt",
-      "uBlock Origin": "https://easylist.to/easylist/easylist.txt"
+      "uBlockOrigin": "https://easylist.to/easylist/easylist.txt"
     },
     "SourceURL": "https://github.com/easylist/easylist",
     "HomepageURL": "https://easylist.to",
@@ -660,7 +660,7 @@
     "Name": "EasyList Germany",
     "SubscriptionURL": {
       "AdGuard": "https://easylist.to/easylistgermany/easylistgermany.txt",
-      "uBlock Origin": "https://easylist.to/easylistgermany/easylistgermany.txt"
+      "uBlockOrigin": "https://easylist.to/easylistgermany/easylistgermany.txt"
     },
     "SourceURL": "https://github.com/easylist/easylistgermany",
     "HomepageURL": "https://easylist.to",
@@ -671,7 +671,7 @@
     "Name": "Liste FR",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
-      "uBlock Origin": "https://easylist-downloads.adblockplus.org/liste_fr.txt"
+      "uBlockOrigin": "https://easylist-downloads.adblockplus.org/liste_fr.txt"
     },
     "SourceURL": "https://github.com/easylist/listefr",
     "HomepageURL": "https://forums.lanik.us/viewforum.php?f=91",
@@ -682,7 +682,7 @@
     "Name": "EasyList Dutch",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-      "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistdutch.txt"
+      "uBlockOrigin": "https://easylist-downloads.adblockplus.org/easylistdutch.txt"
     },
     "SourceURL": "https://github.com/easylist/easylistdutch",
     "HomepageURL": "https://easylist.to",
@@ -693,7 +693,7 @@
     "Name": "EasyList China",
     "SubscriptionURL": {
       "AdGuard": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-      "uBlock Origin": "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+      "uBlockOrigin": "https://easylist-downloads.adblockplus.org/easylistchina.txt"
     },
     "SourceURL": "https://github.com/easylist/easylistchina",
     "HomepageURL": "https://easylist.to",
