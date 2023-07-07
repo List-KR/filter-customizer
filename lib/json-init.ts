@@ -2,7 +2,7 @@ import * as Superstruct from 'superstruct'
 import * as Fs from 'fs'
 import * as FsExtra from 'fs-extra'
 import * as Errors from './errors.js'
-import * as Got from 'got'
+import Got from 'got'
 import * as JSONInterface from './JSONInterface.js'
 
 export function Init() {
