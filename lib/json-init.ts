@@ -5,6 +5,10 @@ import * as Errors from './errors.js'
 import Got from 'got'
 import * as JSONInterface from './JSONInterface.js'
 
+async function RequestFiltersList (URL:string) {
+  return (await Got(URL, { https: { minVersion: 'TLSv1.3' }, http2: true })).body
+}
+
 export function Init() {
   // Config.json
   // Load JSON file.
