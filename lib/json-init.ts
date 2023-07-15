@@ -12,6 +12,7 @@ async function RequestFiltersList (URL:string) {
 export function Init() {
   // Config.json
   // Load JSON file.
+  if (!Fs.existsSync('../config.json')) throw new Errors.FileNotFound('The config.json is not found.')
   try { JSON.parse(Fs.readFileSync('../config.json', 'utf8')) } catch { throw new Errors.JSONInvaildError('The config.json is not a JSON format.') }
   let ConfigJSON = JSON.parse(Fs.readFileSync('../config.json', 'utf8'))
   // Check if JSON is valid.

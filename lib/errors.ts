@@ -33,3 +33,11 @@ export class JSONFormatError extends JSONError {
     this.message = message
   }
 }
+
+export class FileNotFound extends Error {
+  constructor(message: string) {
+    super(message)
+    this.name = 'FileNotFound'
+    this.message = message
+  }
+}
