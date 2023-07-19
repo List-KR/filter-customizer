@@ -16,10 +16,17 @@ export function Init() {
   try { JSON.parse(Fs.readFileSync('../config.json', 'utf8')) } catch { throw new Errors.JSONInvaildError('The config.json is not a JSON format.') }
   let ConfigJSON = JSON.parse(Fs.readFileSync('../config.json', 'utf8'))
   // Check if JSON is valid.
-  if (!(Superstruct.is(ConfigJSON, JSONInterface.ConfigJSONFormat) || Superstruct.is(ConfigJSON, Superstruct.array(JSONInterface.ConfigJSONFormat)))) {
+  if (!(Superstruct.is(ConfigJSON, JSONInterface.SuperstructConfigJSONFormat) || Superstruct.is(ConfigJSON, Superstruct.array(JSONInterface.SuperstructConfigJSONFormat)))) {
     throw new Errors.JSONFormatError('The config.json does not fit a format used in filter-customizer.')
   }
 
-  // predefined-filters.json
-  
+  // predefined-filterslists.json
+  // Load JSON file.
+  if (!Fs.existsSync('predefined-filterslists.json')) throw new Errors.FileNotFound('The predefined-filterslists.json is not found.')
+  try { JSON.parse(Fs.readFileSync('predefined-filterslists.json', 'utf8')) } catch { throw new Errors.JSONInvaildError('The predefined-filterslists.json is not a JSON format.') }
+  let PredefinedFiltersListsJSON = JSON.parse(Fs.readFileSync('predefined-filterslists.json', 'utf8'))
+  // Check if JSON is valid.
+  if (!(Superstruct.is(PredefinedFiltersListsJSON, JSONInterface.SuperstructPredefinedFiltersListsJSON))) {
+    throw new Errors.JSONFormatError('The predefined-filterslists.json does not fit a format used in filter-customizer.')
+  }
 }

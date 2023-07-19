@@ -4,7 +4,7 @@ import * as Validator from 'validator'
 let SuperstructDomain = Superstruct.define('Domain', (value:string) => Validator.default.isFQDN(value))
 let SuperstructURL = Superstruct.define('URL', (value:string) => Validator.default.isURL(value))
 
-export const ConfigJSONFormat = Superstruct.object({
+export const SuperstructConfigJSONFormat = Superstruct.object({
   FiltersLists: Superstruct.array(SuperstructURL),
   CheckLicenses: Superstruct.boolean() || undefined,
   Localization: Superstruct.object({
@@ -56,7 +56,7 @@ export interface InterfaceConfigJSONFormat {
   }
 }
 
-export interface InterfacePredefinedFiltersJSONFormat {
+export interface InterfacePredefinedFiltersListsJSONFormat {
   ID: string,
   Name: string,
   SubscriptionURL: {
@@ -84,7 +84,7 @@ export interface InterfacePredefinedFiltersJSONFormat {
   Library?: string[]
 }
 
-export const SuperstructPredefinedFiltersJSON = Superstruct.object({
+export const SuperstructPredefinedFiltersListsJSON = Superstruct.object({
   ID: Superstruct.string(),
   Name: Superstruct.string(),
   SubscriptionURL: Superstruct.object({
